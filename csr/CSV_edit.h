@@ -7,6 +7,8 @@
 
 
 class CSV_edit {
+private:
+    int d;
 };
 
 
