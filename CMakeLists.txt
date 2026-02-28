@@ -3,4 +3,6 @@ project(OurProject)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(OurProject main.cpp)
+add_executable(OurProject main.cpp
+        csr/CSV_edit.cpp
+        csr/CSV_edit.h)
